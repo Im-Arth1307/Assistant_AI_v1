@@ -32,7 +32,7 @@ while 1:    #Infinite loop to keep the script running continuously.
                 webbrowser.open(site[1])
                 
         if "open music" in query:
-            musicPath = r"C:\Users\ATHARVA J\Downloads\Songs\Kaho Na Kaho.mp3"      #Prefix the string with 'r' to treat it as a raw string, which will ignore escape sequences.
+            musicPath = r"Enter the path for a downloaded mp3 file."      #Prefix the string with 'r' to treat it as a raw string, which will ignore escape sequences.
             os.startfile(musicPath)
 
         if "the time" in query:
